@@ -298,7 +298,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title { display: inline; }
 .blog > .list > .item > .url > .emoji, .projects > .list > .item > .url > .emoji { display: inline; position: relative; top: -4px; margin-right: 10px; }
 
-.page { margin-top: 125px; }
+.page { margin-top: 75px; }
 .page > h1 { text-align: center; margin-bottom: 6rem; }
 
 .about img { width: 50%; margin: 0 auto; display: block; }
@@ -362,12 +362,14 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .header-home { display: block; margin: 0 auto; text-align: center; position: relative; z-index: 99; }
 .header-home > .link > .selfie { width: 125px; height: 125px; margin-bottom: 25px; border-radius: 100%; transition: all 0.2s; opacity: 1; }
 .header-home > .link > .selfie:hover { box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.18), 0 0px 12px 0 rgba(0, 0, 0, 0.15); opacity: 0.8; }
-.header-home > .title { font-size: 4rem; margin: 0 0 13px; }
-.header-home > .jobtitle { font-size: 2.5rem; font-weight: 100; font-style: normal; color: #222; width: 70%; margin: 0 auto 30px; }
+.header-home > .title { font-size: 4rem; margin: 0 0 10px; }
+.header-home > .jobtitle { font-size: 2.5rem; font-weight: 100; font-style: normal; color: #222; width: 70%; margin: 0 auto 15px; }
 .header-home > .jobtitle a { font-weight: 200; }
 .header-home > .description { font-size: 1.85rem; font-weight: 400; font-style: normal; color: #666; width: 70%; margin: 0 auto 30px; }
+.header-home > .description2 { font-size: 1.85rem; font-weight: 400; font-style: normal; color: #666; width: 100%; margin: 0 auto 30px; }
+.header-home > .description3 { font-size: 1.85rem; font-weight: 400; font-style: normal; color: #666; width: 70%; margin: 0 auto 30px; }
 .header-home > .description a { font-weight: 200; }
-
+.description {text-align: center;}
 .nav > .list, .nav-home > .list { list-style: none; margin: 0; padding: 0 13px 0; }
 .nav > .list > .item, .nav-home > .list > .item { display: inline-block; }
 .nav > .list > .item > .link, .nav-home > .list > .item > .link { display: inline-block; font-weight: 300; font-size: 1.4rem; padding: 20px 10px; text-decoration: none; }
@@ -432,7 +434,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .side-by-side > .toleft > p, .side-by-side > .toright > p { margin: 0 0 4rem 0; }
 @media only screen and (max-width: 780px) { .side-by-side > .toleft > p, .side-by-side > .toright > p { margin: 0; } }
 
-.social-links { margin-top: 20px; }
+.social-links { margin-top:10px; }
 .social-links > .link { margin: 15px; text-decoration: none; position: relative; display: inline-block; height: 35px; width: 35px; }
 .social-links > .link:hover > .icon { fill: #345beb; }
 .social-links > .link:hover:before { opacity: 1; display: inline-block; transform: translate3d(0, 0, 0); white-space: nowrap; }
@@ -469,72 +471,48 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
         <h1 class="title">Thomas Verelst</h1>
         <h2 class="jobtitle">PhD Researcher</h2>
-        <h3 class="description">Enabling deep learning and computer vision on edge devices</h3>
+        <h3 class="description">Enabling deep learning and computer vision on edge devices. <br>
+        Efficient neural with dynamic CNNs and conditional computation.
+        </h3>
+        
 
+        <h3 class="description2" style='margin: 5px'><a href='./thomas_verelst_resume.pdf' target="_blank" style='font-weight: 100; color:rgba(0, 0, 0);'>Resume/CV</a></h3>
+        <h3 class="description2" style='margin: 5px'>Want to know more about conditional neural networks? Check out my
+            <a href='https://github.com/thomasverelst/awesome-dynamic-conditional-networks-cv' target="_blank" style='font-weight: 100; color:rgba(0, 0, 0);'>reading list</a>!</h3>
+        
         <div class="social-links">
-    
 
-    
-
-    
-
-    
-
-    
-
-    
         <a class="link" style="top: -3px;" data-title="linkedin.com/in/tverelst" href="https://www.linkedin.com/in/tverelst" target="_blank">
             <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
-    
 
-    
-
-    
-
-    
-
-    
         <a class="link" data-title="github.com/thomasverelst" href="https://github.com/thomasverelst" target="_blank">
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <a class="link" data-title="thomasverelst@outlook.com" href="mailto:thomasverelst@outlook.com">
+        <a class="link" data-title="thomasverelst@outlook.com" href="mailto:thomasverelst@outlook.com" target="_blank">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     
 </div>
+</header>
 
-    </header>
 
-
-<nav class="publication-list" style='margin-top:100px;'>
-    <h2>Publications</h2>
+<nav class="publication-list" style='margin-top:50px;'>
+    <h2>First-Author Publications</h2>
     <ul class="list">
         <li>
 
-            <h3 style='margin-bottom:5px;'>SegBlocks: Towards Block-Based Adaptive Resolution Networks for Fast Segmentation</h3>
+            <h3 style='margin-bottom:5px;'>SegBlocks: Block-Based Dynamic Resolution Networks for Real-Time Segmentation</h3>
             <div class="desc">
                 <div class="authors">Thomas Verelst, Tinne Tuytelaars</div>
                 <div class="proceedings">ECCV 2020 - Embedded Vision Workshop</div>
-                <div>Best Short Paper Award</div>
-                <div><i>Link to PDF coming soon!</i></div>
+                <div>Best Short Paper Award received on August 28th 2020</div>
+                <div>Extended version under review</div>
+                <img src="./segblocks_teaser.png" alt="segblocks overview" width="800">
+                <a target="_blank" href='./segblocks_paper.pdf'>[paper]</a>
+                <!-- <div><i>Link to PDF coming soon!</i></div> -->
+
             </div>
             
         </li>
@@ -545,8 +523,12 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
             <div class="desc">
                 <div class="authors">Thomas Verelst, Tinne Tuytelaars</div>
                 <div class="proceedings">CVPR 2020</div>
-                <a href=https://openaccess.thecvf.com/content_CVPR_2020/html/Verelst_Dynamic_Convolutions_Exploiting_Spatial_Sparsity_for_Faster_Inference_CVPR_2020_paper.html>Link to paper PDF</a>
-
+                <img src="./dynconv_teaser.png" alt="dynamic convolutions overview" width="400">
+                <div class="links">
+                <a target="_blank" href=https://openaccess.thecvf.com/content_CVPR_2020/html/Verelst_Dynamic_Convolutions_Exploiting_Spatial_Sparsity_for_Faster_Inference_CVPR_2020_paper.html>[paper]</a> 
+                <a target="_blank" href='https://github.com/thomasverelst/dynconv'>[Pytorch code]</a>
+                <a target="_blank" href='https://www.youtube.com/watch?v=F8y_f_nzsD0'>[YouTube 1-minute teaser]</a>
+                </div>
             </div>
         </li>
         
@@ -556,15 +538,25 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
             <div class="desc">
                 <div class="authors">Thomas Verelst, Matthew Blaschko, Maxim Berman</div>
                 <div class="proceedings">CVPR 2018 workshop on DeepVision: Beyond supervised learning (extended abstract)</div>
-                <a href=https://lirias.kuleuven.be/retrieve/511471>Link to paper PDF</a>
+                
+                
+                <a target="_blank" href=https://lirias.kuleuven.be/retrieve/511471>[paper]</a>
             </div>
         </li>
+    </ul>
+    
+    <h2>Other Publications</h2>
+    <ul class="list">
+        <li>
+            
+            <h3 style='margin-bottom:5px;'>“Can human behaviour, emotion and cognition be detected by computer vision techniques? A use case on
+                student engagement”</h3>
+                <div class="desc">
+                <div class="authors">Pieter Vanneste, José Oramas, Thomas Verelst, Tinne Tuytelaars, Annelies Raes, Fien Depaepe, Wim Van den Noortgate</div>
+        <div class="proceedings"><i>Under review</i></div>
+        </li>
+    </div>
 
-        
-
-        
-
-        
     </ul>
 </nav> 
 
