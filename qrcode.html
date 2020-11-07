@@ -19,12 +19,6 @@
 
         <section class="container" id="demo-content">
             <!-- <h1 class="title">Scan barcode from Video Camera</h1> -->
-
-            <p>
-                <a class="button-small button-outline" href="../../index.html">HOME 🏡</a>
-            </p>
-
-
             <div>
                 <a class="button" id="startButton">Start</a>
                 <a class="button" id="resetButton">Reset</a>
@@ -57,7 +51,7 @@
             codeReader.getVideoInputDevices()
                 .then((videoInputDevices) => {
                     const sourceSelect = document.getElementById('sourceSelect')
-                    selectedDeviceId = videoInputDevices[-1].deviceId
+                    selectedDeviceId = videoInputDevices[0].de?viceId
                     if (videoInputDevices.length > 1) {
                         videoInputDevices.forEach((element) => {
                             const sourceOption = document.createElement('option')
